@@ -1,12 +1,6 @@
 <?php
 $nm=$_POST['nombre'];
 $cn=$_POST['contra'];
-if ($nm="arlequin"){
-    $nm="alberto";
-}
-if ($cn="2023"){
-    $cn="1234";
-}
 if ($nm!="alberto" && $cn!='1234'){
     header("location: index.html");
     exit;
