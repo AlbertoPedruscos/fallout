@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+*{
+    font-family: 'Alata', sans-serif;
+}
+body{
+    background-color: black;
+    margin: 0px;
+    padding: 0;
+    height: 100%;
+}
+.div1{
+    background-image: url(fondo.jpg);
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+.w11{
+    position: fixed;
+    display: none;
+    display: none;
+}
+.bu{
+    text-align: center;
+    background-color: transparent;
+    border: none;
+}
+.navbar{
+    padding: 2%;
+    background-color: black;
+    width: 100%;
+}
+.but{
+    margin-left: 3.5%;
+    margin-right: 3.5%;
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+.img1{
+    width: 100vw;
+    height: 100vh;
+}
+.jue{
+    display: none;
+    background-image: url(jue.jpg);
+    width: 99,2vw;
+    height: 100vh;
+    object-fit: cover;
+    color: yellow;
+    padding: 5%;
+}
+.f3{
+    background-position: center;
+    background-repeat: no-repeat; 
+    display: none;
+    background-image: url(fondo3.jpg);
+    width: 99,2vw;
+    height: 100vh;
+    object-fit: cover;
+    color: rgb(111, 211, 111);
+    padding: 5%;
+}
+.bo1{
+    display: none;
+}
+.bu2{
+    padding: 0%;
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    color: yellow;
+}
+.bo5{
+    padding: 0%;
+    background-color: transparent;
+    border: none;
+    color: rgb(111, 211, 111);
+}
+.an{
+    display: none;
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-image: url(fondo3.jpg);
+    width: 99,2vw;
+    height: 100vh;
+    object-fit: cover;
+    color: rgb(111, 211, 111);
+    padding: 5%;
+}
+.pri{
+    background-position: center;
+    background-repeat: no-repeat; 
+    display: none;
+    background-image: url(f4.jpg);
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    color: white;
+    padding: 5%;
+}
+.bo6{
+    text-align: left;
+    padding: 0%;
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+.an{
+    background-position: center;
+    background-repeat: no-repeat; 
+    display: none;
+    background-image: url(enclave.jpg);
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    color: white;
+    padding: 5%;
+    margin: 0%;
+}
+.tex{
+    font-size: 20px;
+}
+.titu{
+    font-size: 40px;
+}
+.st{
+    font-size: 30px;
+}
+@media (max-width: 1400px) {
+    .tex{
+        font-size: 15px;
+    }
+    .st{
+        font-size: 18px;
+    }
+    .titu{
+        font-size: 30px;
+    } 
+}
+@media (max-width: 800px) {
+    *{
+        font-size: 80%;
+    }
+    .tex{
+        font-size: 12px;
+    }
+    .st{
+        font-size: 14px;
+    }
+    .titu{
+        font-size: 20px;
+    }
+    img{
+        width: 50%;
+    } 
+}
